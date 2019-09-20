@@ -1,0 +1,62 @@
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ cat aditya
+aditya agarwal
+
+amity university
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ cat titu1
+cat: titu1: No such file or directory
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ vi 10
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ cat 10
+nikita is the most fattu person 
+i have met till now she cant even speak to 
+pi... who is in enng.department
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ head - n 2 10
+==> standard input <==
+head: cannot open 'n' for reading: No such file or directory
+head: cannot open '2' for reading: No such file or directory
+
+==> 10 <==
+nikita is the most fattu person 
+i have met till now she cant even speak to 
+pi... who is in enng.department
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ tail -n 2 10
+i have met till now she cant even speak to 
+pi... who is in enng.department
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ head aditya titu1 
+==> aditya <==
+aditya agarwal
+
+amity university
+head: cannot open 'titu1' for reading: No such file or directory
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ head aditya 10
+==> aditya <==
+aditya agarwal
+
+amity university
+
+==> 10 <==
+nikita is the most fattu person 
+i have met till now she cant even speak to 
+pi... who is in enng.department
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ head aditya 10
+==> aditya <==
+aditya agarwal
+
+amity university
+
+==> 10 <==
+nikita is the most fattu person 
+i have met till now she cant even speak to 
+pi... who is in enng.department
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ head aditya 10-q
+==> aditya <==
+aditya agarwal
+
+amity university
+head: cannot open '10-q' for reading: No such file or directory
+guest-w8xzx1@amity-ThinkCentre-M710t:~$ head aditya 10 -q
+aditya agarwal
+
+amity university
+nikita is the most fattu person 
+i have met till now she cant even speak to 
+pi... who is in enng.department
