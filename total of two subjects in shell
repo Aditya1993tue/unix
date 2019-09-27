@@ -1,0 +1,16 @@
+amity@amity-ThinkCentre-M710t:~/titu$ ^C
+amity@amity-ThinkCentre-M710t:~/titu$ cd titu/
+bash: cd: titu/: No such file or directory
+amity@amity-ThinkCentre-M710t:~/titu$ vim thirdscript.sh
+amity@amity-ThinkCentre-M710t:~/titu$ bash thirdscript.sh
+enter your name
+aditya 
+enter enrollment number
+1234
+enter your first subject marks
+23
+enter your second subject marks
+23
+total marks
+your total is
+sum:46
