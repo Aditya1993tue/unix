@@ -1,0 +1,30 @@
+amity@amity-ThinkCentre-M710t:~$ pwd
+/home/amity
+amity@amity-ThinkCentre-M710t:~$ mkdir titu
+amity@amity-ThinkCentre-M710t:~$ ls
+addprog.c     ASG-AB     examples.desktop  Pictures  something.html  veggie
+animal_1.txt  Author     gaurav            Public    sou.c           Videos
+animal_2.txt  Desktop    gulshan           saehli    Templates
+animal_3.txt  dir1       hema              saheli    test
+animal_txt    Documents  mca5              shubham   titu
+animal.txt    Downloads  Music             shyamali  titu.sh
+amity@amity-ThinkCentre-M710t:~$ cd titu/
+
+
+
+
+
+
+
+
+
+amity@amity-ThinkCentre-M710t:~/titu$ vim secondscript.sh
+amity@amity-ThinkCentre-M710t:~/titu$ bash secondscript.sh
+enter your enrollment number
+gasfaefhfh4756157
+enter your name
+aditya
+name of subject name
+unix
+number of subject
+2
