@@ -1,0 +1,11 @@
+x1 = [1 1 -1 -1];
+x2 = [1 -1 1 -1];
+y = [1 1 1 -1];
+w1 = input('Enter first weight');
+w2 = input('Enter second weight');
+b = input('Enter the bias');
+for i = 1:4
+    w1 = w1 + x1(i)*y(i);
+    w2 = w2 + x2(i)*y(i);
+    b = b + y(i);
+end
