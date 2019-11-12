@@ -1,0 +1,10 @@
+#!/usr/bin/awk -f
+BEGIN {
+len=0;
+}
+{
+len++;
+}
+END {print "NO.OF LINES IN FILE :",len}
+######################################################
+make a file and write some lines inside that line then only this code will read the number of lines
